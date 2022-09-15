@@ -1,0 +1,13 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "d:\\gameprojects\\unreal\\unrealshowcase\\intermediate\\build\\win64\\unrealeditor\\inc\\unrealshowcase\\unrealshowcase.init.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\gameprojects\\unreal\\unrealshowcase\\intermediate\\build\\win64\\unrealshowcaseeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "d:\\gameprojects\\unreal\\unrealshowcase\\intermediate\\build\\win64\\unrealeditor\\development\\unrealshowcase\\definitions.unrealshowcase.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "d:\\gameprojects\\unreal\\unrealshowcase\\source\\unrealshowcase\\unrealshowcasegamemodebase.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\gameprojects\\unreal\\unrealshowcase\\intermediate\\build\\win64\\unrealshowcaseeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "d:\\gameprojects\\unreal\\unrealshowcase\\intermediate\\build\\win64\\unrealeditor\\development\\unrealshowcase\\definitions.unrealshowcase.h",
+            "d:\\gameprojects\\unreal\\unrealshowcase\\source\\unrealshowcase\\unrealshowcasegamemodebase.h",
+            "d:\\games\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemodebase.h",
+            "d:\\games\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\engine\\serverstatreplicator.h",
+            "d:\\games\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\serverstatreplicator.generated.h",
+            "d:\\games\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\gamemodebase.generated.h",
+            "d:\\gameprojects\\unreal\\unrealshowcase\\intermediate\\build\\win64\\unrealeditor\\inc\\unrealshowcase\\unrealshowcasegamemodebase.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"D:\\GameProjects\\Unreal\\UnrealShowcase\\Source\\UnrealShowcase\\UnrealShowcase.Build.cs",
+		"D:\\GameProjects\\Unreal\\UnrealShowcase\\Source\\UnrealShowcase.Target.cs",
+		"D:\\GameProjects\\Unreal\\UnrealShowcase\\Source\\UnrealShowcaseEditor.Target.cs"
+	],
+	"EngineVersion": "5.0.3"
+}
