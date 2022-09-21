@@ -1,12 +1,12 @@
 {
-    "Version": "1.1",
+    "Version": "1.2",
     "Data": {
-        "Source": "d:\\gameprojects\\unreal\\unrealshowcase\\source\\unrealshowcase\\unrealshowcase.cpp",
+        "Source": "d:\\unreal_projects\\unreal-tools\\unrealshowcase\\source\\unrealshowcase\\unrealshowcase.cpp",
         "ProvidedModule": "",
-        "PCH": "d:\\gameprojects\\unreal\\unrealshowcase\\intermediate\\build\\win64\\unrealshowcaseeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "PCH": "d:\\unreal_projects\\unreal-tools\\unrealshowcase\\intermediate\\build\\win64\\unrealshowcaseeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
         "Includes": [
-            "d:\\gameprojects\\unreal\\unrealshowcase\\intermediate\\build\\win64\\unrealeditor\\development\\unrealshowcase\\definitions.unrealshowcase.h",
-            "d:\\gameprojects\\unreal\\unrealshowcase\\source\\unrealshowcase\\unrealshowcase.h"
+            "d:\\unreal_projects\\unreal-tools\\unrealshowcase\\intermediate\\build\\win64\\unrealeditor\\development\\unrealshowcase\\definitions.unrealshowcase.h",
+            "d:\\unreal_projects\\unreal-tools\\unrealshowcase\\source\\unrealshowcase\\unrealshowcase.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []
