@@ -1,0 +1,15 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "d:\\gameprojects\\unreal\\unreal-tools\\unrealshowcase\\source\\unrealshowcase\\myplayercontroller.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\gameprojects\\unreal\\unreal-tools\\unrealshowcase\\intermediate\\build\\win64\\unrealshowcaseeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "d:\\gameprojects\\unreal\\unreal-tools\\unrealshowcase\\intermediate\\build\\win64\\unrealeditor\\development\\unrealshowcase\\definitions.unrealshowcase.h",
+            "d:\\gameprojects\\unreal\\unreal-tools\\unrealshowcase\\source\\unrealshowcase\\myplayercontroller.h",
+            "d:\\gameprojects\\unreal\\unreal-tools\\unrealshowcase\\intermediate\\build\\win64\\unrealeditor\\inc\\unrealshowcase\\myplayercontroller.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

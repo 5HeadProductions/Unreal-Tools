@@ -1,0 +1,15 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "d:\\gameprojects\\unreal\\unreal-tools\\unrealshowcase\\intermediate\\build\\win64\\unrealeditor\\inc\\unrealshowcase\\playerpawn.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\gameprojects\\unreal\\unreal-tools\\unrealshowcase\\intermediate\\build\\win64\\unrealshowcaseeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "d:\\gameprojects\\unreal\\unreal-tools\\unrealshowcase\\intermediate\\build\\win64\\unrealeditor\\development\\unrealshowcase\\definitions.unrealshowcase.h",
+            "d:\\gameprojects\\unreal\\unreal-tools\\unrealshowcase\\source\\unrealshowcase\\playerpawn.h",
+            "d:\\gameprojects\\unreal\\unreal-tools\\unrealshowcase\\intermediate\\build\\win64\\unrealeditor\\inc\\unrealshowcase\\playerpawn.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

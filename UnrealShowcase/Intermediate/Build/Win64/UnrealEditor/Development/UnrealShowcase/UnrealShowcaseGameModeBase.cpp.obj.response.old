@@ -1,18 +1,16 @@
-D:\GameProjects\Unreal\UnrealShowcase\Source\UnrealShowcase\UnrealShowcaseGameModeBase.cpp
+D:\GameProjects\Unreal\Unreal-Tools\UnrealShowcase\Source\UnrealShowcase\UnrealShowcaseGameModeBase.cpp
 /I .
-/I D:\GameProjects\Unreal\UnrealShowcase\Intermediate\Build\Win64\UnrealEditor\Inc\UnrealShowcase
-/I D:\GameProjects\Unreal\UnrealShowcase\Source
-/I Runtime
-/I Runtime\TraceLog\Public
-/I Runtime\Core\Public
-/I ..\Intermediate\Build\Win64\UnrealEditor\Inc\CoreUObject
-/I Runtime\CoreUObject\Public
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\Engine
+/I Runtime
 /I ..\Shaders\Shared
 /I Runtime\Engine\Classes
 /I Runtime\Engine\Public
+/I Runtime\TraceLog\Public
+/I Runtime\Core\Public
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\CoreOnline
 /I Runtime\CoreOnline\Public
+/I ..\Intermediate\Build\Win64\UnrealEditor\Inc\CoreUObject
+/I Runtime\CoreUObject\Public
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\NetCore
 /I Runtime\Net
 /I Runtime\Net\Core\Classes
@@ -253,6 +251,11 @@ D:\GameProjects\Unreal\UnrealShowcase\Source\UnrealShowcase\UnrealShowcaseGameMo
 /I Runtime\ClothingSystemRuntimeInterface\Public
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\AnimationDataController
 /I Developer\AnimationDataController\Public
+/I D:\GameProjects\Unreal\Unreal-Tools\UnrealShowcase\Intermediate\Build\Win64\UnrealEditor\Inc\UnrealShowcase
+/I D:\GameProjects\Unreal\Unreal-Tools\UnrealShowcase\Source
+/I ..\Plugins\Experimental\EnhancedInput\Intermediate\Build\Win64\UnrealEditor\Inc\EnhancedInput
+/I ..\Plugins\Experimental\EnhancedInput\Source
+/I ..\Plugins\Experimental\EnhancedInput\Source\EnhancedInput\Public
 /I ThirdParty\mimalloc\include
 /I ThirdParty\LibTiff\Source\Win64
 /I ThirdParty\LibTiff\Source
@@ -273,12 +276,12 @@ D:\GameProjects\Unreal\UnrealShowcase\Source\UnrealShowcase\UnrealShowcaseGameMo
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"
-/FI"D:\GameProjects\Unreal\UnrealShowcase\Intermediate\Build\Win64\UnrealShowcaseEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/FI"D:\GameProjects\Unreal\UnrealShowcase\Intermediate\Build\Win64\UnrealEditor\Development\UnrealShowcase\Definitions.UnrealShowcase.h"
-/Yu"D:\GameProjects\Unreal\UnrealShowcase\Intermediate\Build\Win64\UnrealShowcaseEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"D:\GameProjects\Unreal\UnrealShowcase\Intermediate\Build\Win64\UnrealShowcaseEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-/Fo"D:\GameProjects\Unreal\UnrealShowcase\Intermediate\Build\Win64\UnrealEditor\Development\UnrealShowcase\UnrealShowcaseGameModeBase.cpp.obj"
-/sourceDependencies D:\GameProjects\Unreal\UnrealShowcase\Intermediate\Build\Win64\UnrealEditor\Development\UnrealShowcase\UnrealShowcaseGameModeBase.cpp.json
+/FI"D:\GameProjects\Unreal\Unreal-Tools\UnrealShowcase\Intermediate\Build\Win64\UnrealShowcaseEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/FI"D:\GameProjects\Unreal\Unreal-Tools\UnrealShowcase\Intermediate\Build\Win64\UnrealEditor\Development\UnrealShowcase\Definitions.UnrealShowcase.h"
+/Yu"D:\GameProjects\Unreal\Unreal-Tools\UnrealShowcase\Intermediate\Build\Win64\UnrealShowcaseEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Fp"D:\GameProjects\Unreal\Unreal-Tools\UnrealShowcase\Intermediate\Build\Win64\UnrealShowcaseEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
+/Fo"D:\GameProjects\Unreal\Unreal-Tools\UnrealShowcase\Intermediate\Build\Win64\UnrealEditor\Development\UnrealShowcase\UnrealShowcaseGameModeBase.cpp.obj"
+/sourceDependencies D:\GameProjects\Unreal\Unreal-Tools\UnrealShowcase\Intermediate\Build\Win64\UnrealEditor\Development\UnrealShowcase\UnrealShowcaseGameModeBase.cpp.json
 /Zc:inline
 /nologo
 /Oi

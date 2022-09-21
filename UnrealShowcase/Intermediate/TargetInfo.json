@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "UnrealShowcase",
-			"Path": "D:\\GameProjects\\Unreal\\UnrealShowcase\\Source\\UnrealShowcase.Target.cs",
+			"Path": "D:\\GameProjects\\Unreal\\Unreal-Tools\\UnrealShowcase\\Source\\UnrealShowcase.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "UnrealShowcaseEditor",
-			"Path": "D:\\GameProjects\\Unreal\\UnrealShowcase\\Source\\UnrealShowcaseEditor.Target.cs",
+			"Path": "D:\\GameProjects\\Unreal\\Unreal-Tools\\UnrealShowcase\\Source\\UnrealShowcaseEditor.Target.cs",
 			"Type": "Editor"
 		}
 	]

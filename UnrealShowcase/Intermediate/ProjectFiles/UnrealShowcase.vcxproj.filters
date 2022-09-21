@@ -23,9 +23,27 @@
     <None Include="..\..\Config\DefaultGame.ini">
       <Filter>Config</Filter>
     </None>
+    <Filter Include="Config\HoloLens">
+      <UniqueIdentifier>{4C8DD267-CDE7-336F-8602-F5F485D22BAB}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\HoloLens\HoloLensEngine.ini">
+      <Filter>Config\HoloLens</Filter>
+    </None>
     <Filter Include="Source\UnrealShowcase">
       <UniqueIdentifier>{145B0580-3FD9-3042-9BAB-BC7EAA6A0DA9}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\UnrealShowcase\MyPlayerController.cpp">
+      <Filter>Source\UnrealShowcase</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\UnrealShowcase\MyPlayerController.h">
+      <Filter>Source\UnrealShowcase</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\UnrealShowcase\PlayerPawn.cpp">
+      <Filter>Source\UnrealShowcase</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\UnrealShowcase\PlayerPawn.h">
+      <Filter>Source\UnrealShowcase</Filter>
+    </ClInclude>
     <None Include="..\..\Source\UnrealShowcase\UnrealShowcase.Build.cs">
       <Filter>Source\UnrealShowcase</Filter>
     </None>
