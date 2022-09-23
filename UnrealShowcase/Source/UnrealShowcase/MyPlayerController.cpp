@@ -2,19 +2,19 @@
 
 
 #include "MyPlayerController.h"
-//#include "InputAction.h"
-//#include "InputMappingContext.h"
+#include "InputAction.h"
+#include "InputMappingContext.h"
 
 void AMyPlayerController::SetupInputComponent()
 {
 	Super::SetupInputComponent();
 
 	//// Create these objects here and not in constructor bc we only need them on the client
-	//PawnMappingContext = NewObject<UInputMappingContext>(this);
+	PawnMappingContext = NewObject<UInputMappingContext>(this);
 
-	//MoveAction = NewObject<UInputAction>(this);
-	//MoveAction->ValueType = EInputActionValueType::Axis3D;
-	//PawnMappingContext->MapKey(MoveAction, EKeys::W);
+	MoveAction = NewObject<UInputAction>(this);
+	MoveAction->ValueType = EInputActionValueType::Axis3D;
+	PawnMappingContext->MapKey(MoveAction, EKeys::W);
 
 
 }

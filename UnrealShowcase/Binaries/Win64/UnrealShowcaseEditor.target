@@ -2161,6 +2161,22 @@
 			"Type": "DynamicLibrary"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/Experimental/EnhancedInput/Binaries/Win64/UnrealEditor.modules",
+			"Type": "RequiredResource"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/EnhancedInput/Binaries/Win64/UnrealEditor-EnhancedInput.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/EnhancedInput/Binaries/Win64/UnrealEditor-InputBlueprintNodes.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/EnhancedInput/Binaries/Win64/UnrealEditor-InputEditor.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/Experimental/FullBodyIK/Binaries/Win64/UnrealEditor.modules",
 			"Type": "RequiredResource"
 		},
@@ -23200,6 +23216,10 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Experimental/CharacterAI/CharacterAI.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/EnhancedInput/EnhancedInput.uplugin",
 			"Type": "UFS"
 		},
 		{

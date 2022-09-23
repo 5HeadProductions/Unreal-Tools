@@ -38,16 +38,16 @@ public:
 	UPROPERTY(EditAnywhere)
 		class UCameraComponent* Camera;
 
-	APlayerController* playerController;
+	/*APlayerController* playerController;
 
 	virtual void Tick(float deltaTime) override;
 
-	void MoveForward(float value);
+	void MoveForward(float value);*/
 
 
 
-protected:
-
-	virtual void BeginPlay() override;
+//protected:
+//
+//	virtual void BeginPlay() override;
 
 };

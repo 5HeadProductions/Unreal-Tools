@@ -21,10 +21,10 @@ public:
 
 
 	/* Mapping context used for pawn control */
-	/*UPROPERTY()
-	class UInputMappingContext* PawnMappingContext;*/
+	UPROPERTY()
+	class UInputMappingContext* PawnMappingContext;
 
 	/* Action to update location */
-	/*UPROPERTY()
-		class UInputAction* MoveAction;*/
+	UPROPERTY()
+	class UInputAction* MoveAction;
 };

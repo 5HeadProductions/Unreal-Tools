@@ -1,18 +1,27 @@
 ﻿  Using bundled DotNet SDK
   Log file: C:\Users\ojeda\AppData\Local\UnrealBuildTool\Log.txt
   Using 'git status' to determine working set for adaptive non-unity build (D:\GameProjects\Unreal\Unreal-Tools).
+  Invalidating makefile for UnrealShowcaseEditor (working set of source files changed)
+D:\GameProjects\Unreal\Unreal-Tools\UnrealShowcase\Source\UnrealShowcase\UnrealShowcase.Build.cs : warning : Referenced directory 'D:\GameProjects\Unreal\Unreal-Tools\UnrealShowcase\Source\EnhancedInput\Public' does not exist.
+  Parsing headers for UnrealShowcaseEditor
+    Running UnrealHeaderTool "D:\GameProjects\Unreal\Unreal-Tools\UnrealShowcase\UnrealShowcase.uproject" "D:\GameProjects\Unreal\Unreal-Tools\UnrealShowcase\Intermediate\Build\Win64\UnrealShowcaseEditor\Development\UnrealShowcaseEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\ojeda\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+  Reflection code generated for UnrealShowcaseEditor in 31.5069861 seconds
   Building UnrealShowcaseEditor...
   Using Visual Studio 2019 14.29.30140 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   [Adaptive Build] Excluded from UnrealShowcase unity file: MyPlayerController.cpp, PlayerPawn.cpp
   Determining max actions to execute in parallel (6 physical cores, 12 logical cores)
     Executing up to 6 processes, one per physical core
-    Requested 1.5 GB free memory per action, 4.78 GB available: limiting max parallel actions to 3
-  Building 4 actions with 3 processes...
-  [1/4] Compile PlayerPawn.cpp
-  [2/4] Link UnrealEditor-UnrealShowcase-0013.lib
-     Creating library D:\GameProjects\Unreal\Unreal-Tools\UnrealShowcase\Intermediate\Build\Win64\UnrealEditor\Development\UnrealShowcase\UnrealEditor-UnrealShowcase-0013.lib and object D:\GameProjects\Unreal\Unreal-Tools\UnrealShowcase\Intermediate\Build\Win64\UnrealEditor\Development\UnrealShowcase\UnrealEditor-UnrealShowcase-0013.exp
-  [3/4] Link UnrealEditor-UnrealShowcase-0013.dll
-     Creating library D:\GameProjects\Unreal\Unreal-Tools\UnrealShowcase\Intermediate\Build\Win64\UnrealEditor\Development\UnrealShowcase\UnrealEditor-UnrealShowcase-0013.suppressed.lib and object D:\GameProjects\Unreal\Unreal-Tools\UnrealShowcase\Intermediate\Build\Win64\UnrealEditor\Development\UnrealShowcase\UnrealEditor-UnrealShowcase-0013.suppressed.exp
-  [4/4] WriteMetadata UnrealShowcaseEditor.target
-  Total time in Parallel executor: 3.82 seconds
-  Total execution time: 4.91 seconds
+    Requested 1.5 GB free memory per action, 5.9 GB available: limiting max parallel actions to 3
+  Building 5 actions with 3 processes...
+  [1/5] Compile MyPlayerController.cpp
+D:\GameProjects\Unreal\Unreal-Tools\UnrealShowcase\Source\UnrealShowcase\MyPlayerController.cpp(5): fatal error C1083: Cannot open include file: 'InputAction.h': No such file or directory
+  [2/5] Compile MyPlayerController.gen.cpp
+D:\GameProjects\Unreal\Unreal-Tools\UnrealShowcase\Intermediate\Build\Win64\UnrealEditor\Inc\UnrealShowcase\MyPlayerController.gen.cpp(16): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\GameProjects\Unreal\Unreal-Tools\UnrealShowcase\Intermediate\Build\Win64\UnrealEditor\Inc\UnrealShowcase\MyPlayerController.gen.cpp(16): error C2146: syntax error: missing ';' before identifier 'UClass'
+D:\GameProjects\Unreal\Unreal-Tools\UnrealShowcase\Intermediate\Build\Win64\UnrealEditor\Inc\UnrealShowcase\MyPlayerController.gen.cpp(17): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\GameProjects\Unreal\Unreal-Tools\UnrealShowcase\Intermediate\Build\Win64\UnrealEditor\Inc\UnrealShowcase\MyPlayerController.gen.cpp(17): error C2086: 'int ENHANCEDINPUT_API': redefinition
+  D:\GameProjects\Unreal\Unreal-Tools\UnrealShowcase\Intermediate\Build\Win64\UnrealEditor\Inc\UnrealShowcase\MyPlayerController.gen.cpp(16): note: see declaration of 'ENHANCEDINPUT_API'
+D:\GameProjects\Unreal\Unreal-Tools\UnrealShowcase\Intermediate\Build\Win64\UnrealEditor\Inc\UnrealShowcase\MyPlayerController.gen.cpp(17): error C2146: syntax error: missing ';' before identifier 'UClass'
+D:\GameProjects\Unreal\Unreal-Tools\UnrealShowcase\Intermediate\Build\Win64\UnrealEditor\Inc\UnrealShowcase\MyPlayerController.gen.cpp(64): error C2065: 'Z_Construct_UClass_UInputMappingContext_NoRegister': undeclared identifier
+D:\GameProjects\Unreal\Unreal-Tools\UnrealShowcase\Intermediate\Build\Win64\UnrealEditor\Inc\UnrealShowcase\MyPlayerController.gen.cpp(72): error C2065: 'Z_Construct_UClass_UInputAction_NoRegister': undeclared identifier
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.MakeFile.Targets(44,5): error MSB3073: The command "D:\Games\UE_5.0\Engine\Build\BatchFiles\Build.bat UnrealShowcaseEditor Win64 Development -Project="D:\GameProjects\Unreal\Unreal-Tools\UnrealShowcase\UnrealShowcase.uproject" -WaitMutex -FromMsBuild" exited with code 6.
