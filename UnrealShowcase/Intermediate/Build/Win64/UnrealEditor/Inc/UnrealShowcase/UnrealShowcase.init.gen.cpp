@@ -17,13 +17,13 @@ void EmptyLinkFunctionForGeneratedCodeUnrealShowcase_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x0AD1B7C4,
-				0x0BBABDED,
+				0xEC257DD6,
+				0x9492EA1D,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UECodeGen_Private::ConstructUPackage(Z_Registration_Info_UPackage__Script_UnrealShowcase.OuterSingleton, PackageParams);
 		}
 		return Z_Registration_Info_UPackage__Script_UnrealShowcase.OuterSingleton;
 	}
-	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_UnrealShowcase(Z_Construct_UPackage__Script_UnrealShowcase, TEXT("/Script/UnrealShowcase"), Z_Registration_Info_UPackage__Script_UnrealShowcase, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x0AD1B7C4, 0x0BBABDED));
+	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_UnrealShowcase(Z_Construct_UPackage__Script_UnrealShowcase, TEXT("/Script/UnrealShowcase"), Z_Registration_Info_UPackage__Script_UnrealShowcase, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0xEC257DD6, 0x9492EA1D));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
