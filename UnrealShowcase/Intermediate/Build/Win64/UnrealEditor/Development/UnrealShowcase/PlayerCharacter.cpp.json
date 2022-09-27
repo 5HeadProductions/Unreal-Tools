@@ -1,0 +1,21 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "d:\\gameprojects\\unreal\\unreal-tools\\unrealshowcase\\source\\unrealshowcase\\playercharacter.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\gameprojects\\unreal\\unreal-tools\\unrealshowcase\\intermediate\\build\\win64\\unrealshowcaseeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "d:\\gameprojects\\unreal\\unreal-tools\\unrealshowcase\\intermediate\\build\\win64\\unrealeditor\\development\\unrealshowcase\\definitions.unrealshowcase.h",
+            "d:\\gameprojects\\unreal\\unreal-tools\\unrealshowcase\\source\\unrealshowcase\\playercharacter.h",
+            "d:\\games\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\gameframework\\character.h",
+            "d:\\games\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\gameframework\\charactermovementreplication.h",
+            "d:\\games\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\charactermovementreplication.generated.h",
+            "d:\\games\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\gameframework\\rootmotionsource.h",
+            "d:\\games\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\rootmotionsource.generated.h",
+            "d:\\games\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\character.generated.h",
+            "d:\\gameprojects\\unreal\\unreal-tools\\unrealshowcase\\intermediate\\build\\win64\\unrealeditor\\inc\\unrealshowcase\\playercharacter.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

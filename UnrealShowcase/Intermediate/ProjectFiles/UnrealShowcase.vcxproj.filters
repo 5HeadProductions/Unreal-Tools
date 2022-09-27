@@ -26,6 +26,12 @@
     <Filter Include="Source\UnrealShowcase">
       <UniqueIdentifier>{145B0580-3FD9-3042-9BAB-BC7EAA6A0DA9}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\UnrealShowcase\PlayerCharacter.cpp">
+      <Filter>Source\UnrealShowcase</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\UnrealShowcase\PlayerCharacter.h">
+      <Filter>Source\UnrealShowcase</Filter>
+    </ClInclude>
     <None Include="..\..\Source\UnrealShowcase\UnrealShowcase.Build.cs">
       <Filter>Source\UnrealShowcase</Filter>
     </None>
